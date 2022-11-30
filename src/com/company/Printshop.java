@@ -25,6 +25,7 @@ public class Printshop {
         this.itemList = new ArrayList<>();
         this.money = 1000;
         fileNumber++;
+
         File file = new File("Report" + fileNumber + ".txt");
         file.createNewFile();
         this.fileWriter = new FileWriter(file);
